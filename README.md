@@ -105,6 +105,7 @@ Solo caracteres válidos: A, T, C, G
 
 Si falla → 400 BAD REQUEST
 
+###
 🗂️ 7. Arquitectura del Proyecto
 src/
 └── main/
@@ -117,6 +118,7 @@ src/
     │       └── exception/ → GlobalExceptionHandler
     └── resources/
         └── application.properties
+###
 
 🔍 8. Persistencia y Evitación de Duplicados
 
