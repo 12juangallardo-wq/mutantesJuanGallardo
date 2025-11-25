@@ -107,16 +107,16 @@ Si falla → 400 BAD REQUEST
 
 🗂️ 7. Arquitectura del Proyecto
 src/
- └── main/
-     ├── java/
-     │   └── org.example.mutantes
-     │       ├── controller/      → Endpoints REST
-     │       ├── service/         → Lógica de negocio
-     │       ├── entity/          → Entidades JPA
-     │       ├── repository/      → Repositorio (H2)
-     │       └── exception/       → GlobalExceptionHandler
-     └── resources/
-         └── application.properties
+└── main/
+    ├── java/
+    │   └── org.example.mutantes
+    │       ├── controller/ → Endpoints REST
+    │       ├── service/ → Lógica de negocio
+    │       ├── entity/ → Entidades JPA
+    │       ├── repository/ → Repositorio (H2)
+    │       └── exception/ → GlobalExceptionHandler
+    └── resources/
+        └── application.properties
 
 🔍 8. Persistencia y Evitación de Duplicados
 
